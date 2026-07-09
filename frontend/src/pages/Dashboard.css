@@ -1,0 +1,40 @@
+.dashboard{
+    padding:40px;
+    background:#f4f7fb;
+    min-height:100vh;
+}
+
+.header h1{
+    color:#1f3c88;
+}
+
+.header p{
+    color:#555;
+    margin-top:8px;
+}
+
+.cards{
+    margin-top:40px;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card h2{
+    color:#1565c0;
+    font-size:35px;
+}
+
+.card p{
+    margin-top:12px;
+    color:#666;
+}
